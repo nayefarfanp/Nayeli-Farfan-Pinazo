@@ -1,5 +1,4 @@
 # Nayeli-Farfan-Pinazo
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,29 +6,6 @@
     <meta name="google-site-verification" content="PkK9GUPVRf-S01rvWAe14NLSbrtFb57dyyOMEDdtCx8" />
     <meta name="keywords" content="Aleshka, Nicole, Beltrán, Gutiérrez">
     <meta name="autor" contend="Aleshka Nicole Beltrán Gutiérrez">
-    <title>Aleshka Nicole Beltrán Gutiérrez</title>
-    <style>
-      h1 {
-           text-align: center;
-          }
-      body {
-           font-family: 'Open Sans', sans-serif;
-      }
-      h2, h3 {
-            color: #32c7cc;
-      }
-      h1 {
-            color: #fdfdfd;      
-      }
-      h1 {
-          background-color: #c183fac5; 
-          padding: 50px;
-      }
-      h2, p, h3 {
-          text-align: left; 
-        margin-left: 10%; 
-      }
-    </style>
     
 </head>
 <body>
