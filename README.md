@@ -52,7 +52,7 @@
       <p> Profesor: <a href="https://www.linkedin.com/in/ecuadrosv/"> Ernesto Cuadros</a></p>
      <h3> Idiomas:</h3>
     <p>- Frances (avanzado)</p>
-    <p>- Frances (intermedio)</p>
+    <p>- Ingles (intermedio)</p>
     <p>- Español (nativo)</p>
       <h3> Compañeros:</h3>
       <p> <a href="https://mariapazgonzalesleon.github.io/"> Maria Paz Gonzales</a></p>
