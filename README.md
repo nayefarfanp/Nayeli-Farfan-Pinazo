@@ -21,8 +21,8 @@
             color: #fdfdfd;      
       }
       h1 {
-          background-color: #1883a0; 
-          padding: 80px;
+          background-color: #81df80; 
+          padding: 50px;
       }
       h2, p, h3 {
           text-align: left; 
