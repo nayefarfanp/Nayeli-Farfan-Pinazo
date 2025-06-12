@@ -1,4 +1,4 @@
-# Nayeli-Farfan-Pinazo
+# Nayeli Farfan Pinazo
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,8 +21,8 @@
             color: #fdfdfd;      
       }
       h1 {
-          background-color: #c183fac5; 
-          padding: 50px;
+          background-color: #1883a0; 
+          padding: 80px;
       }
       h2, p, h3 {
           text-align: left; 
@@ -36,7 +36,7 @@
     <p> Soy Angeles Nayeli Farfan Pinazo. Actualmente soy estudiante de la <a href="https://ucsp.edu.pe/">Universidad Catolica San Pablo</a> y me encuentro estudiando mi quinto semestre de la carrera de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/">Administración de Negocios</a>  </p>
     <h2> Trayectoria </h2>
     <p>Formación:</p>
-    <p>- <a href="https://cnspilar.edu.pe/">Colegio Nuestra Señora del Pilar</a> (Colegio Nuestra Señora del Pilar) (inicial-primaria-secundaria)</p>
+    <p>- <a href="https://cnspilar.edu.pe/">Colegio Nuestra Señora del Pilar</a> (inicial-primaria-secundaria)</p>
     <p>- <a href="https://ucsp.edu.pe/">Universidad Catolica San Pablo</a> (educación superior-actualidad)</p>
     <h2> Aptitudes </h2>
       <p>- Respetuosa </p>
@@ -50,6 +50,10 @@
       <p>- Moral</p>
       <p>- Introducción de Ciencia de la Computación:</p>
       <p> Profesor: <a href="https://www.linkedin.com/in/ecuadrosv/"> Ernesto Cuadros</a></p>
+     <h3> Idiomas:</h3>
+    <p>- Frances (avanzado)</p>
+    <p>- Frances (intermedio)</p>
+    <p>- Español (nativo)</p>
       <h3> Compañeros:</h3>
       <p> <a href="https://mariapazgonzalesleon.github.io/"> Maria Paz Gonzales</a></p>
       <p> <a href="https://josuemontenegro.com/"> Josue Montenegro </a></p>
