@@ -1,131 +1,163 @@
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Página de Nayeli</title>
+  <title>Nayeli Farfan ✨</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #f2f2f2, #e6ecf3);
       margin: 0;
       padding: 0;
-      color: #112d4e;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fff0f5, #fbeaff);
+      color: #4a4a4a;
     }
     header {
-      background-color: #4682B4;
+      background: linear-gradient(to right, #ffb6c1, #dda0dd);
       color: white;
-      padding: 30px 20px;
+      padding: 60px 20px 80px;
       text-align: center;
       position: relative;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
     }
     header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 2.8em;
       margin: 0;
-      font-size: 2.5em;
     }
     header p {
       font-size: 1.2em;
+      margin-top: 10px;
     }
     .foto-esquina {
       position: absolute;
-      top: 15px;
-      right: 15px;
+      top: 20px;
+      right: 20px;
       width: 100px;
       height: 100px;
       border-radius: 50%;
       object-fit: cover;
       border: 3px solid white;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
     .contenido {
       max-width: 900px;
-      margin: 40px auto;
-      background-color: #f9f9f9;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      margin: -50px auto 40px;
+      padding: 0 20px;
     }
-    section h2, section h3 {
-      color: #3f72af;
-      margin-top: 25px;
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #d87093;
+      margin-bottom: 10px;
     }
     a {
-      color: #2c3e50;
+      color: #cc6699;
       text-decoration: none;
+      font-weight: 500;
     }
     a:hover {
-      color: #4682B4;
       text-decoration: underline;
     }
+    ul {
+      padding-left: 20px;
+    }
     footer {
-      background-color: #333;
+      background-color: #ffb6c1;
       color: white;
       text-align: center;
-      padding: 15px;
+      padding: 20px;
       font-size: 0.9em;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
     }
     @media (max-width: 600px) {
+      header {
+        padding: 40px 20px 60px;
+      }
       .foto-esquina {
-        width: 70px;
-        height: 70px;
-        top: 10px;
-        right: 10px;
+        width: 80px;
+        height: 80px;
+        top: 15px;
+        right: 15px;
       }
       header h1 {
-        font-size: 1.8em;
+        font-size: 2em;
+      }
+      .card {
+        padding: 20px;
       }
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>¡Hola! Soy Nayeli</h1>
-    <p>Bienvenido/a a mi página web</p>
-    <img src="foto.jpg" alt="Mi foto" class="foto-esquina">
+    <h1>✨ Nayeli Farfan ✨</h1>
+    <p>Estudiante de Administración de Negocios</p>
+    <img src="foto.jpg" alt="Mi Foto" class="foto-esquina">
   </header>
+  <div class="contenido">
+    <div class="card">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Angeles Nayeli Farfan Pinazo 💖 Estudio en la <a href="https://ucsp.edu.pe/">Universidad Católica San Pablo</a>, actualmente en el quinto semestre de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/">Administración de Negocios</a>.</p>
+      <p>Me considero creativa, responsable, honesta y muy adaptable.</p>
+    </div>
+    <div class="card">
+      <h2>Trayectoria</h2>
+      <ul>
+        <li><a href="https://cnspilar.edu.pe/">Colegio Nuestra Señora del Pilar</a> (inicial-primaria-secundaria)</li>
+        <li><a href="https://ucsp.edu.pe/">Universidad Católica San Pablo</a> (actualidad)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Estoy cursando</h2>
+      <ul>
+        <li>Análisis Financiero</li>
+        <li>Macroeconomía</li>
+        <li>Teología II</li>
+        <li>Moral</li>
+        <li>Introducción a Ciencia de la Computación (profesor: <a href="https://www.linkedin.com/in/ecuadrosv/">Ernesto Cuadros</a>)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Idiomas</h2>
+      <ul>
+        <li>🇫🇷 Francés - Avanzado</li>
+        <li>🇺🇸 Inglés - Intermedio</li>
+        <li>🇵🇪 Español - Nativo</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Mis compañeros 💕</h2>
+      <ul>
+        <li><a href="https://mariapazgonzalesleon.github.io/">Maria Paz Gonzales</a></li>
+        <li><a href="https://josuemontenegro.com/">Josue Montenegro</a></li>
+        <li><a href="https://ariana6240.github.io/ArianaMicaelaFernandezCarpio/">Ariana Fernandez</a></li>
+        <li><a href="https://mariaquintog.github.io/">Maria Alessandra Quinto</a></li>
+        <li><a href="https://kiacondo.github.io/mipaginawebdma/">Danamaris Condo</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Contacto</h2>
+      <p>📌 <a href="https://www.linkedin.com/in/angeles-nayeli-farfan-pinazo-575523359/">LinkedIn</a></p>
+      <p>💻 <a href="https://github.com/nayefarfanp">GitHub</a></p>
+    </div>
+  </div>
 
-  <section class="contenido">
-    <h2>Sobre mí:</h2>
-    <p>Soy Angeles Nayeli Farfan Pinazo. Actualmente soy estudiante de la <a href="https://ucsp.edu.pe/">Universidad Católica San Pablo</a> y me encuentro en el quinto semestre de la carrera de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/">Administración de Negocios</a>.</p>
-    <p>Soy una persona creativa, honesta y adaptable, tanto en el trabajo como en mi vida personal.</p>
-    <h2>Trayectoria</h2>
-    <p><strong>Formación:</strong></p>
-    <ul>
-      <li><a href="https://cnspilar.edu.pe/">Colegio Nuestra Señora del Pilar</a> (inicial-primaria-secundaria)</li>
-      <li><a href="https://ucsp.edu.pe/">Universidad Católica San Pablo</a> (educación superior - actualidad)</li>
-    </ul>
-    <h3>Estoy Cursando:</h3>
-    <ul>
-      <li>Análisis financiero</li>
-      <li>Macroeconomía</li>
-      <li>Teología II</li>
-      <li>Moral</li>
-      <li>Introducción a Ciencia de la Computación (profesor: <a href="https://www.linkedin.com/in/ecuadrosv/">Ernesto Cuadros</a>)</li>
-    </ul>
-    <h3>Idiomas:</h3>
-    <ul>
-      <li>Francés (avanzado)</li>
-      <li>Inglés (intermedio)</li>
-      <li>Español (nativo)</li>
-    </ul>
-    <h3>Compañeros:</h3>
-    <ul>
-      <li><a href="https://mariapazgonzalesleon.github.io/">Maria Paz Gonzales</a></li>
-      <li><a href="https://josuemontenegro.com/">Josue Montenegro</a></li>
-      <li><a href="https://ariana6240.github.io/ArianaMicaelaFernandezCarpio/">Ariana Fernandez</a></li>
-      <li><a href="https://mariaquintog.github.io/">Maria Alessandra Quinto</a></li>
-      <li><a href="https://kiacondo.github.io/mipaginawebdma/">Danamaris Condo</a></li>
-    </ul>
-    <h3>Contacto:</h3>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/angeles-nayeli-farfan-pinazo-575523359/">LinkedIn</a></li>
-      <li><a href="https://github.com/nayefarfanp">GitHub</a></li>
-    </ul>
-  </section>
   <footer>
-    © 2025 Nayeli Farfan - Todos los derechos reservados
+    Con cariño 💫 por Nayeli Farfan — 2025
   </footer>
+
 </body>
 </html>
-
