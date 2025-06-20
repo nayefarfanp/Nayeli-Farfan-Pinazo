@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -103,14 +103,14 @@
 </head>
 <body>
   <header>
-    <h1>✨ Nayeli Farfan ✨</h1>
+    <h1> Nayeli Farfan </h1>
     <p>Estudiante de Administración de Negocios</p>
     <img src="foto.jpg" alt="Mi Foto" class="foto-esquina">
   </header>
   <div class="contenido">
     <div class="card">
       <h2>Sobre mí</h2>
-      <p>Hola, soy Angeles Nayeli Farfan Pinazo 💖 Estudio en la <a href="https://ucsp.edu.pe/">Universidad Católica San Pablo</a>, actualmente en el quinto semestre de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/">Administración de Negocios</a>.</p>
+      <p>Hola, soy Angeles Nayeli Farfan Pinazo. Estudio en la <a href="https://ucsp.edu.pe/">Universidad Católica San Pablo</a>, actualmente en el quinto semestre de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/">Administración de Negocios</a>.</p>
       <p>Me considero creativa, responsable, honesta y muy adaptable.</p>
     </div>
     <div class="card">
@@ -123,12 +123,12 @@
     <div class="card">
       <h2>Estoy cursando</h2>
       <ul>
-        <li>Análisis Financiero</li>
-        <li>Macroeconomía</li>
-        <li>Teología II</li>
-        <li>Moral</li>
-        <li>Introducción a Ciencia de la Computación (profesor: <a href="https://www.linkedin.com/in/ecuadrosv/">Ernesto Cuadros</a>)</li>
-      </ul>
+        <li>Análisis Financiero (docente: Maria Belen Bocchio) </li>
+        <li>Macroeconomía (docente:Lieslie Gallegos) (</li>
+        <li>Teología II (docente: Alberto Rios)</li>
+        <li>Moral (docente: Roger Silva) </li>
+        <li>Introducción a Ciencia de la Computación (docente: <a href="https://www.linkedin.com/in/ecuadrosv/">Ernesto Cuadros</a>)</li>
+      </ul> 
     </div>
     <div class="card">
       <h2>Idiomas</h2>
@@ -139,7 +139,7 @@
       </ul>
     </div>
     <div class="card">
-      <h2>Mis compañeros 💕</h2>
+      <h2>Mis compañeros:</h2>
       <ul>
         <li><a href="https://mariapazgonzalesleon.github.io/">Maria Paz Gonzales</a></li>
         <li><a href="https://josuemontenegro.com/">Josue Montenegro</a></li>
@@ -154,10 +154,8 @@
       <p>💻 <a href="https://github.com/nayefarfanp">GitHub</a></p>
     </div>
   </div>
-
   <footer>
     Con cariño 💫 por Nayeli Farfan — 2025
   </footer>
-
 </body>
 </html>
